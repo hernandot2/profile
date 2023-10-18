@@ -1,15 +1,15 @@
 /* Fonts and colors */
+@import url('https://fonts.googleapis.com/css?family=Tilt+Neon:400,700');
 
 body {
   position: relative;
-  font-family:'Open Sans';
+  font-family: 'Tilt Neon', sans-serif;
   background: #000;
   min-height: 100%;
   font-size:18px;
-  font-family:'Open Sans';
   background-attachment: fixed;
   color: white;
-  color: #494949; /* eh do efeito */
+  color: #d1cbcb /* eh do efeito */
   font-size:10/1px;
   line-height: 1.6;
   font-weight: lighter;
@@ -17,14 +17,13 @@ body {
   margin: 0;
 }
 
-
 .img-circle {
-  border-radius: 100%;
+  border-radius: 50%;
   position: absolute;
   left:100px; 
   right: 200px; /* Distância da borda direita */
   top: 120px; /* Distância da borda superior */
-  width: 270px; /* Ajuste o tamanho conforme necessário */
+  width: 240px; /* Ajuste o tamanho conforme necessário */
   box-shadow: 
     0 0 0 5px #b30000,        /* primeira cor */
     0 0 0 10px #089696,   /* segunda cor */
@@ -32,13 +31,24 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Montserrat', sans-serif;
+  
+  font-family: 'Tilt Neon', sans-serif;
   font-weight: bold;
+  color: white;
 }
-h2 {
-  color: #A0A0A0;
+h2, h3 {
+ 
+  font-family: 'Tilt Neon', sans-serif;
+  color: #960096;
+  
   font-weight: normal;
 }
+
+h4 {
+  color: white;
+ 
+}
+
 a {
   text-decoration: none;
   color: #4352A1;
