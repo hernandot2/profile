@@ -1,6 +1,17 @@
 /* Fonts and colors */
 @import url('https://fonts.googleapis.com/css?family=Tilt+Neon:400,700');
 
+.container{
+  padding: 50px;
+
+}
+
+.flexbox {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 body {
   position: relative;
   font-family: 'Tilt Neon', sans-serif;
