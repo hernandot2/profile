@@ -23,7 +23,7 @@ body {
   left:100px; 
   right: 200px; /* Distância da borda direita */
   top: 120px; /* Distância da borda superior */
-  width: 240px; /* Ajuste o tamanho conforme necessário */
+  width: 199px; /* Ajuste o tamanho conforme necessário */
   box-shadow: 
     0 0 0 5px #b30000,        /* primeira cor */
     0 0 0 10px #089696,   /* segunda cor */

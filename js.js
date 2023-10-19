@@ -14,7 +14,6 @@ $(document).ready(function() {
 });
 
 
-
 $(document).ready(function () {
   $('#canvas').mousedown(function () {
       settings.velocity_x += 2;
