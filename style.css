@@ -1,11 +1,28 @@
 /* Fonts and colors */
 @import url('https://fonts.googleapis.com/css?family=Tilt+Neon:400,700');
 
-.container{
-  padding: 50px;
 
+
+/* Media Queries para ajustar a direção do flex */
+@media (max-width: 768px) {
+  .card-product {
+      flex-direction: column; /* Isso fará com que as imagens fiquem uma abaixo da outra */
+  }
 }
 
+
+
+.container{
+  padding: 50px;
+  width: 700px;
+  margin: 50px auto;
+}
+
+.card-product{
+  display: flex; /* Isso fará com que as imagens se alinhem lado a lado */
+  flex-wrap: wrap; /* Isso permitirá que os itens se envolvam em várias linhas se não houver espaço suficiente */
+  justify-content: space-between; /* Isso adicionará algum espaço entre suas imagens */
+}
 .flexbox {
   display:flex;
   justify-content: space-evenly;
@@ -81,10 +98,7 @@ a {
   font-weight: lighter;
   opacity: 0.8;
 }
-.container {
-  width: 700px;
-  margin: 50px auto;
-}
+
 .link-medium {
   background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
   color: #636363;
