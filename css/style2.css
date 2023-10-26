@@ -1,0 +1,18 @@
+/* Fonts and colors */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("components/container.css");
+
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  background-color: rgb(240, 240, 240);
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+
+.text-center {
+  text-align: center;
+}
