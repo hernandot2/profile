@@ -177,8 +177,27 @@ canvas {
   position: fixed;
   top: 10px;
   right: 10px;
+  z-index: 2;
 }
 
 .top-navigation a {
   margin: 0 20px; /* Espaço entre os links */
 }
+
+
+.top-navigation-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(211, 211, 211, 0.7 );
+  padding: 30px;
+  z-index: 1;
+  display: none; /* inicialmente o menu fixo está escondido */
+  width: 100%;
+}
+
+/* .top-navigation-fixed a {
+  margin: 0 20px; /* Espaço entre os links */
+  display: inline-block;
+} */
